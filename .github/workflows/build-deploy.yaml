@@ -6,7 +6,6 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      -name: checkout code
-       uses: actions/checkout@v2
-      -name: print hi
-       run: echo "hi"
+      - name: checkout code
+        uses: actions/checkout@v2
+     
