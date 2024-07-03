@@ -1,4 +1,4 @@
-name: Build and Deploy code 
+name: build and deploy code 
 
 on: [push,pull_request]
 
@@ -10,4 +10,3 @@ jobs:
        uses: actions/checkout@v2
       -name: print hi
        run: echo "hi"
-        
